@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Book a Slot</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="booking.html">Booking</a>
+  </nav>
+
+  <main>
+    <h1>Book Your Appointment</h1>
+    <form id="booking-form">
+      <input type="text" name="name" placeholder="Your name" required>
+      <input type="email" name="email" placeholder="Your email" required>
+      <input type="date" name="date" id="date-input" required>
+      <button type="submit">Book</button>
+    </form>
+    <p id="confirmation"></p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
